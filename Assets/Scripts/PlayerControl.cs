@@ -63,6 +63,7 @@ public class PlayerControl : MonoBehaviour
         Vector2 max = Camera.main.ViewportToWorldPoint(new Vector2(1, 1));
         max.x = max.x - 0.225f; min.x = min.x + 0.225f;
         max.y = max.y - 0.225f; min.y = min.y + 0.225f;
+
         Vector2 pos = transform.position;
         pos += direction * speed * Time.deltaTime;
         pos.x = Mathf.Clamp(pos.x, min.x, max.x);
@@ -76,7 +77,7 @@ public class PlayerControl : MonoBehaviour
         {
             PlayExplosion();
             Destroy(gameObject);
-            GameOver();
+            StartCoroutine(DelayGameOver());
         }
     }
 
@@ -86,9 +87,9 @@ public class PlayerControl : MonoBehaviour
         explosion.transform.position = transform.position;
     }
 
-    void GameOver()
+    IEnumerator DelayGameOver()
     {
+        yield return new WaitForSeconds(2);
         Time.timeScale = 0;
     }
-
 }
