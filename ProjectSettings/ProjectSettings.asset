@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 24
+<<<<<<< HEAD
   productGUID: e827d76808d164135816436bb8eb0566
+=======
+  productGUID: 4ef2504ed463949a99f296620fb2a89f
+>>>>>>> new-feature
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +17,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
   productName: SpaceShooter
+=======
+  productName: PairProject
+>>>>>>> new-feature
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -121,6 +129,10 @@ PlayerSettings:
   switchNVNOtherPoolsGranularity: 16777216
   switchNVNMaxPublicTextureIDCount: 0
   switchNVNMaxPublicSamplerIDCount: 0
+<<<<<<< HEAD
+=======
+  switchMaxWorkerMultiple: 8
+>>>>>>> new-feature
   stadiaPresentMode: 0
   stadiaTargetFramerate: 0
   vulkanNumSwapchainBuffers: 3
@@ -768,11 +780,19 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
+<<<<<<< HEAD
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: 
   organizationId: 
+=======
+  cloudProjectId: 5a4b5817-826b-4346-a929-9cd0c8b035e2
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: PairProject
+  organizationId: anuradha0301
+>>>>>>> new-feature
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
