@@ -1,6 +1,7 @@
 # CSCI526_Pair
 
 Game url: https://anuradhakrishnaratnam.itch.io/cosmic-shift-01
+
 password: usctrojan
 
 Cosmic Shift
